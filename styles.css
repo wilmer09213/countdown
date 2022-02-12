@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.target-date {
+    font-size: 1.5rem;
+    padding: 50px;
+}
+
+.timer {
+    font-size: 4rem;
+}
